@@ -59,7 +59,7 @@ const StickerContainerStyle = {
   display: "block",
   borderRadius: "5px",
   overflow: "hidden",
-  backgroundColor: "rgb(246, 229, 228)",
+  backgroundColor: "blue",
   margin: "15px",
   zIndex: "1",
 };
@@ -70,7 +70,7 @@ const stickerButton = {
   fontSize: "20px",
   fontWeight: "bold",
   border: "transparent",
-  backgroundColor: "transparent",
+  backgroundColor: "grey",
 };
 
 const stickerTextarea = {

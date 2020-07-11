@@ -1,0 +1,46 @@
+form {
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+}
+
+.input-todo {
+  border: none;
+  background: #f7f1f1;
+  padding: 0 1.5em;
+  font-size: initial;
+  width: 200px;
+  margin-right: 0.5em;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+.add-button,
+.save-button {
+  width: 190px;
+  padding: 0 1.25rem;
+  border: none;
+  background: #0aebc5;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 40px;
+  cursor: pointer;
+  margin-top: 5px;
+  transform: background 0.2s ease-out;
+}
+
+.add-button:hover,
+.save-button:hover {
+  background: rgb(0, 195, 255);
+}
+
+.input-todo,
+.add-button,
+.save-button {
+  font-family: "Quicksand", sans-serif;
+  height: 2.5rem;
+}
